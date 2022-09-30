@@ -1,0 +1,49 @@
+body {
+  background-color: #011f3f;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: beige;
+  font-family: "Press Start 2P", cursive;
+}
+
+button {
+  width: 200px;
+  height: 200px;
+  border-radius: 10%;
+  border: solid 10px black;
+  margin: 30px;
+}
+
+.button-section {
+  margin: auto;
+  margin-top: 6rem;
+  width: 600px;
+}
+
+#green {
+  background-color: green;
+}
+
+#red {
+  background-color: red;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#blue {
+  background-color: blue;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
+
+.wrong-answer {
+  background-color: red;
+}
